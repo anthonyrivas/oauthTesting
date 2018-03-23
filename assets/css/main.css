@@ -1,0 +1,38 @@
+.score-table tr {
+  border-bottom: thin solid lightgrey;
+}
+
+.score-table tr:last-child {
+  border: none;
+}
+
+.judge-item>div>button {
+  font-size: smaller;
+}
+
+.round-count {
+  font-size: 2rem;
+}
+
+.round-count small {
+  font-size: small;
+}
+
+.round-timer {
+  font-size: 3.5rem;
+}
+
+.login{
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  margin-top: 5rem;
+  width: 100%;
+  max-width: 350px;
+}
+
+.form-signin{
+  background-color: #f0f0f0;
+  border-radius: .5rem;
+  padding: 2rem;
+}
