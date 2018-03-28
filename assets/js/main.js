@@ -5,9 +5,7 @@ function statusChangeCallback( response ) {
 		testAPI();
 
 	} else if ( response.status === 'not_authorized' ) {
-		FB.login( function ( response ) {
-			statusChangeCallback2( response );
-		}, { scope: 'public_profile,email' } );
+
 
 	} else {
 		alert( "not connected, not logged into facebook, we don't know" );
